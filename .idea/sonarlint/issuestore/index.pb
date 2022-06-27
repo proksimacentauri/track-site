@@ -21,8 +21,6 @@ I
 server/src/Track/track.ts,7\0\708e1e637a50706d2b675a4835733c2f966a653c
 H
 server/src/app.module.ts,4\8\488956f2a22065a8ba9a70296fcab25792616980
-A
-server/.gitignore,6\8\684633b668b24c06fe5d5ba72b7ed42a437aa655
 D
 server/tsconfig.json,3\d\3d7d95880241a5b8b6b4711c4fa9494745ed9aa3
 D
