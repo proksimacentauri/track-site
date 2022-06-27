@@ -1,0 +1,17 @@
+import {useDispatch} from "react-redux";
+import { bindActionCreators } from "redux";
+import ActionCreators from "../store/action-creators";
+import {useState} from "react";
+
+
+export const useInput = (initialValue) => {
+    const [value, setValue] = useState(initialValue);
+
+    const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setValue(e.target.value)
+    }
+
+    return {
+        value, onChange
+    }
+}
